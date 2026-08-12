@@ -1,0 +1,84 @@
+body {
+    font-size: 1.6rem;
+    font-family: 'poppins', sans-serif;
+}
+/* =========common========= */
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline;
+    min-width: 118px;
+    padding: 0px 16px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 24.5px;
+    background: black;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* =========header========= */
+.header {
+    background: white;  
+}
+
+.header .fixed {
+    position: sticky;
+    top: -28px;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 36px 0px 8px;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav a {
+    position: relative;
+    color: gray;
+    font-size: 1.6rem;
+    padding: 8px 21px;
+}
+
+.nav li.active a, .nav a:hover {
+    color: black;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.nav li.active a::after {
+    position: absolute;
+    left: 21px;
+    bottom: 6px;
+    display: block;
+    content: "";
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    background: black;
+}
+
+.header .btn-signup {
+    min-width: 144px;
+}
+
+.header .active{
+    margin-left: 49px;
+}
